@@ -1,0 +1,56 @@
+.header{
+    position: relative;
+}
+
+.header h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: aliceblue;
+    
+   
+}
+
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+body{
+    background-color: rgb(223, 219, 219);
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+
+.game{
+    position: relative;
+}
+
+.game p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.game:hover p{
+    opacity: 1;
+}
+
+.game img{
+    opacity: 1;
+}
+.game:hover img {
+    opacity: 0.33;
+}
