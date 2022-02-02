@@ -1,17 +1,15 @@
 .header{
-    position: relative;
+    display: flex;
+    justify-content:space-between;
 }
 
-.header h1{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    color: aliceblue;
-    
-   
+.menu{
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #000000;
 }
-
 
 .grid{
     display: flex;
@@ -31,26 +29,16 @@ a:visited{
     color: white;
 }
 
-
 .game{
-    position: relative;
+    border-radius: 20px;
+    background-color: #e2e2e2;
+    padding: 30px;
+    margin: 25;
+    width: 280px;
+    font-family: sans-serif;
+    
 }
 
-.game p{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    opacity: 0;
-}
-
-.game:hover p{
-    opacity: 1;
-}
-
-.game img{
-    opacity: 1;
-}
 .game:hover img {
     opacity: 0.33;
 }
